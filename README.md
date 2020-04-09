@@ -64,6 +64,9 @@ Next, write a method that verifies whether an email addresses is valid. To make 
 ```python
 "art.vandelay@vandelay.co" # False
 ```
+"art.vandelay#vadelay.co".endswith(.com)
+
+
 
 As you can see below, the website "vandelay.com" is not preceded by `"www."`. You can perform string concatenation to fix this! string concatenation allows you to join two strings. It works just like numerical addition. For example, ```"This is the start" + "and this is the end"``` would return ```"This is the start and this is the end"```. Use string concatenation to change the website `'vandelay.com'` to the string `'www.vandelay.com'` by prepending `'www.'`.
 
@@ -72,6 +75,8 @@ As you can see below, the website "vandelay.com" is not preceded by `"www."`. Yo
 'vandelay.com' # 'www.vandelay.com'
 ```
 
+"www." + "vandelay.com"
+
 ## String Slicing
 
 Finally, Mr. Vandelay gave us his phone number. Extract the area code by selecting the first three characters of the string. You can do this using brackets to select characters from the string as in ```"George"[:4]``` which would return ```"Geor"```.
@@ -79,6 +84,9 @@ Finally, Mr. Vandelay gave us his phone number. Extract the area code by selecti
 
 ```python
 "7285553334" # 728
+
+"728555334"[:3]
+
 ```
 
 ## Summary
